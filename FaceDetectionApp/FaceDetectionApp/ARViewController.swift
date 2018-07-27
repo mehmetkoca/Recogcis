@@ -15,17 +15,19 @@ class ARViewController: UIViewController {
     @IBOutlet weak var descLabel: UILabel!
     @IBOutlet weak var sceneView: ARSCNView!
     
-    private var viewModel = ARViewModel()
+    private var viewModel: ARViewModel!
  
     override func viewDidLoad() {
         super.viewDidLoad()
         
         prepareSceneView()
         
-        viewModel = ARViewModel()
+
+        viewModel = ARViewModel(sceneView: sceneView)
         viewModel.stateChangeHandler = { [weak self] change in
             self?.applyStateChange(change)
         }
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -62,3 +64,4 @@ extension ARViewController: ARSessionDelegate {
         viewModel.takeCapturedImage(from: frame)
     }
 }
+

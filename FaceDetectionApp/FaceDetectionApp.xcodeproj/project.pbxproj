@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		031FBE822108801D00AE5EEE /* ErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031FBE812108801D00AE5EEE /* ErrorPresenter.swift */; };
+		031FBE8B210B4D6E00AE5EEE /* SCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031FBE8A210B4D6E00AE5EEE /* SCNVector3.swift */; };
 		0336D1392105EED9005351BA /* Commencers.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0336D1382105EED9005351BA /* Commencers.mlmodel */; };
 		034AF8792105B02700B1C9C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034AF8782105B02700B1C9C9 /* AppDelegate.swift */; };
 		034AF87B2105B02700B1C9C9 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034AF87A2105B02700B1C9C9 /* ARViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		031FBE812108801D00AE5EEE /* ErrorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPresenter.swift; sourceTree = "<group>"; };
+		031FBE8A210B4D6E00AE5EEE /* SCNVector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3.swift; sourceTree = "<group>"; };
 		0336D1382105EED9005351BA /* Commencers.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Commencers.mlmodel; sourceTree = "<group>"; };
 		034AF8752105B02700B1C9C9 /* FaceDetectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		034AF8782105B02700B1C9C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				031FBE812108801D00AE5EEE /* ErrorPresenter.swift */,
+				031FBE8A210B4D6E00AE5EEE /* SCNVector3.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				03AC04E72107523400AFDBF3 /* ARState.swift in Sources */,
 				0336D1392105EED9005351BA /* Commencers.mlmodel in Sources */,
 				034AF8792105B02700B1C9C9 /* AppDelegate.swift in Sources */,
+				031FBE8B210B4D6E00AE5EEE /* SCNVector3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

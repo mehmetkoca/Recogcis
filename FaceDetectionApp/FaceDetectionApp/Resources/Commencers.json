@@ -1,0 +1,19 @@
+{
+    "users" : [
+        {
+            "name" : "Atila Sakaogullari",
+            "title" : "Intern",
+            "department" : "Backend"
+        },
+        {
+            "name" : "Ugurcan Polat",
+            "title" : "Intern",
+            "department" : "Backend"
+        },
+        {
+            "name" : "Halil Colak",
+            "title" : "Intern",
+            "department" : "IT"
+        }
+    ]
+}

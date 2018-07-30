@@ -1,19 +1,18 @@
-{
-    "users" : [
-        {
-            "name" : "Atila Sakaogullari",
-            "title" : "Intern",
-            "department" : "Backend"
-        },
-        {
-            "name" : "Ugurcan Polat",
-            "title" : "Intern",
-            "department" : "Backend"
-        },
-        {
-            "name" : "Halil Colak",
-            "title" : "Intern",
-            "department" : "IT"
-        }
-    ]
-}
+[
+    {
+        "name" : "atila sakaogullari",
+        "title" : "Intern",
+        "department" : "Backend"
+    },
+    {
+        "name" : "ugurcan polat",
+        "title" : "Intern",
+        "department" : "Backend"
+    },
+    {
+        "name" : "halil colak",
+        "title" : "Intern",
+        "department" : "IT"
+    }
+]
+ 

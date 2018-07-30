@@ -5,15 +5,16 @@
 //  Created by Mehmet Koca on 7/24/18.
 //  Copyright © 2018 Mehmet Koca. All rights reserved.
 //
+import ARKit
 
 final class ARState {
     enum Change {
-        case identifier(String?)
+        case node(SCNNode?)
     }
     
     var onChange: ((ARState.Change) -> Void)?
     
-    var identifier: String? {
-        didSet { onChange?(.identifier(identifier)) }
+    var node: SCNNode? {
+        didSet{ onChange?(.node(node))}
     }
 }

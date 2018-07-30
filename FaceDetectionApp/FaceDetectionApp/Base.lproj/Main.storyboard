@@ -23,46 +23,17 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="uU1-vl-t16"/>
                                 </connections>
                             </arscnView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XnI-BT-fKZ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="52"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="4tv-mE-ArS">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="52"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Investigating..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJ3-AD-ngd">
-                                            <rect key="frame" x="8" y="8" width="359" height="44"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="PJ3-AD-ngd" firstAttribute="leading" secondItem="4tv-mE-ArS" secondAttribute="leadingMargin" id="0l8-Hp-0d9"/>
-                                        <constraint firstItem="PJ3-AD-ngd" firstAttribute="top" secondItem="4tv-mE-ArS" secondAttribute="top" constant="8" id="cE2-IW-itT"/>
-                                        <constraint firstItem="PJ3-AD-ngd" firstAttribute="trailing" secondItem="4tv-mE-ArS" secondAttribute="trailingMargin" id="hOT-h7-IgO"/>
-                                        <constraint firstAttribute="bottom" secondItem="PJ3-AD-ngd" secondAttribute="bottom" id="qfQ-Gf-ZzV"/>
-                                    </constraints>
-                                </view>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="VLG-fa-EnI"/>
-                                </constraints>
-                                <blurEffect style="light"/>
-                            </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="8ku-FR-RQY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7SM-VD-FYe"/>
-                            <constraint firstItem="XnI-BT-fKZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8c3-aZ-rNw"/>
                             <constraint firstItem="8ku-FR-RQY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8ym-zJ-AGG"/>
                             <constraint firstItem="8ku-FR-RQY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Bb9-ga-Red"/>
-                            <constraint firstItem="XnI-BT-fKZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Fxr-Oi-fuz"/>
                             <constraint firstItem="8ku-FR-RQY" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="OwI-tn-R2T"/>
-                            <constraint firstItem="XnI-BT-fKZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="v5g-F2-PAi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="descLabel" destination="PJ3-AD-ngd" id="r52-dn-GXE"/>
                         <outlet property="sceneView" destination="8ku-FR-RQY" id="Y4v-Oc-3am"/>
                     </connections>
                 </viewController>

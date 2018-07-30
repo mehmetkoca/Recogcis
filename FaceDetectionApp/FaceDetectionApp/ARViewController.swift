@@ -12,7 +12,6 @@ import Vision
 
 class ARViewController: UIViewController {
     
-    @IBOutlet weak var descLabel: UILabel!
     @IBOutlet weak var sceneView: ARSCNView!
     
     private var viewModel: ARViewModel!
@@ -27,7 +26,7 @@ class ARViewController: UIViewController {
         viewModel.stateChangeHandler = { [weak self] change in
             self?.applyStateChange(change)
         }
-
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -44,10 +43,9 @@ class ARViewController: UIViewController {
     func applyStateChange(_ change: ARState.Change) {
         DispatchQueue.main.async {
             switch change {
-            case let .identifier(identifier):
-                if nil != identifier {
-                    self.descLabel.text = identifier
-                }
+            case let .node(node):
+                guard let node = node else { return }
+                self.sceneView.scene.rootNode.addChildNode(node)                
             }
         }
     }
@@ -64,4 +62,5 @@ extension ARViewController: ARSessionDelegate {
         viewModel.takeCapturedImage(from: frame)
     }
 }
+
 

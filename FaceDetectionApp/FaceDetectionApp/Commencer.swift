@@ -7,8 +7,8 @@
 //
 
 struct Commencer: Codable {
-    var name: String?
-    var title: String?
-    var department: String?
+    var name: String
+    var title: String
+    var department: String
 }
 

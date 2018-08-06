@@ -88,12 +88,15 @@ final class ARViewModel {
                     let boundingBox = self.transformBoundingBox(face.boundingBox)
                     guard let worldCoordination = self.normalizeWorldCoord(boundingBox),
                         let commencerName = self.commencer?.name else { return }
-                    guard let _ = self.cardDictionary[commencerName] else {
+                     guard let _ = self.cardDictionary[commencerName] else {
                         DispatchQueue.main.async{
                             self.currentNode = self.createCard(facePosition: worldCoordination, commencer: self.commencer)
                         }
                         return
                     }
+                }
+                else {
+                    self.cardDictionary = [:]
                 }
             })
             return detectFaceRequest
@@ -110,7 +113,7 @@ final class ARViewModel {
         
         let classifications = results as! [VNClassificationObservation]
         
-        if let bestResult = classifications.first(where: { result in result.confidence > 0.65}) {
+        if let bestResult = classifications.first(where: { result in result.confidence > 0.45}) {
             self.commencers = dataController.loadJson("Commencers")!
             self.commencers?.forEach({ (commencer) in
                 if commencer.name == bestResult.identifier {

@@ -18,8 +18,8 @@
 		034AF87E2105B02700B1C9C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034AF87C2105B02700B1C9C9 /* Main.storyboard */; };
 		034AF8802105B02900B1C9C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034AF87F2105B02900B1C9C9 /* Assets.xcassets */; };
 		034AF8832105B02900B1C9C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034AF8812105B02900B1C9C9 /* LaunchScreen.storyboard */; };
-		0369CC542111CB3200165E71 /* bgCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 0369CC532111CB3200165E71 /* bgCard.png */; };
 		0369CC5A211885A300165E71 /* Commencers.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0369CC59211885A200165E71 /* Commencers.mlmodel */; };
+		0369CC7E211B071A00165E71 /* bgCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 0369CC7D211B071A00165E71 /* bgCard.png */; };
 		03AC04E121074C1400AFDBF3 /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC04E021074C1400AFDBF3 /* ARViewModel.swift */; };
 		03AC04E72107523400AFDBF3 /* ARState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC04E62107523400AFDBF3 /* ARState.swift */; };
 /* End PBXBuildFile section */
@@ -38,8 +38,8 @@
 		034AF87F2105B02900B1C9C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034AF8822105B02900B1C9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034AF8842105B02900B1C9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0369CC532111CB3200165E71 /* bgCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgCard.png; sourceTree = "<group>"; };
 		0369CC59211885A200165E71 /* Commencers.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Commencers.mlmodel; sourceTree = "<group>"; };
+		0369CC7D211B071A00165E71 /* bgCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgCard.png; sourceTree = "<group>"; };
 		03AC04E021074C1400AFDBF3 /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
 		03AC04E62107523400AFDBF3 /* ARState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +105,7 @@
 			children = (
 				0369CC59211885A200165E71 /* Commencers.mlmodel */,
 				031FBE8C210EED9500AE5EEE /* Commencers.json */,
-				0369CC532111CB3200165E71 /* bgCard.png */,
+				0369CC7D211B071A00165E71 /* bgCard.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -169,11 +169,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0369CC542111CB3200165E71 /* bgCard.png in Resources */,
 				034AF8832105B02900B1C9C9 /* LaunchScreen.storyboard in Resources */,
 				034AF8802105B02900B1C9C9 /* Assets.xcassets in Resources */,
 				034AF87E2105B02700B1C9C9 /* Main.storyboard in Resources */,
 				031FBE8D210EED9500AE5EEE /* Commencers.json in Resources */,
+				0369CC7E211B071A00165E71 /* bgCard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

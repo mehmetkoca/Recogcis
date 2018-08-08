@@ -113,7 +113,7 @@ final class ARViewModel {
         
         let classifications = results as! [VNClassificationObservation]
         
-        if let bestResult = classifications.first(where: { result in result.confidence > 0.45}) {
+        if let bestResult = classifications.first(where: { result in result.confidence > 0.35}) {
             self.commencers = dataController.loadJson("Commencers")!
             self.commencers?.forEach({ (commencer) in
                 if commencer.name == bestResult.identifier {

@@ -31,7 +31,7 @@
 		031FBE8E210EF12900AE5EEE /* Commencer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commencer.swift; sourceTree = "<group>"; };
 		031FBE92210F49B300AE5EEE /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		031FBE94211039EC00AE5EEE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		034AF8752105B02700B1C9C9 /* FaceDetectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		034AF8752105B02700B1C9C9 /* Recogcis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recogcis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		034AF8782105B02700B1C9C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		034AF87A2105B02700B1C9C9 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		034AF87D2105B02700B1C9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		034AF86C2105B02700B1C9C9 = {
 			isa = PBXGroup;
 			children = (
-				034AF8772105B02700B1C9C9 /* FaceDetectionApp */,
+				034AF8772105B02700B1C9C9 /* Recogcis */,
 				034AF8762105B02700B1C9C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,12 +66,12 @@
 		034AF8762105B02700B1C9C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				034AF8752105B02700B1C9C9 /* FaceDetectionApp.app */,
+				034AF8752105B02700B1C9C9 /* Recogcis.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		034AF8772105B02700B1C9C9 /* FaceDetectionApp */ = {
+		034AF8772105B02700B1C9C9 /* Recogcis */ = {
 			isa = PBXGroup;
 			children = (
 				034AF87C2105B02700B1C9C9 /* Main.storyboard */,
@@ -87,7 +87,7 @@
 				034AF8812105B02900B1C9C9 /* LaunchScreen.storyboard */,
 				034AF8842105B02900B1C9C9 /* Info.plist */,
 			);
-			path = FaceDetectionApp;
+			path = Recogcis;
 			sourceTree = "<group>";
 		};
 		03AC04E421074FE700AFDBF3 /* Utilities */ = {
@@ -113,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		034AF8742105B02700B1C9C9 /* FaceDetectionApp */ = {
+		034AF8742105B02700B1C9C9 /* Recogcis */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 034AF8872105B02900B1C9C9 /* Build configuration list for PBXNativeTarget "FaceDetectionApp" */;
+			buildConfigurationList = 034AF8872105B02900B1C9C9 /* Build configuration list for PBXNativeTarget "Recogcis" */;
 			buildPhases = (
 				034AF8712105B02700B1C9C9 /* Sources */,
 				034AF8722105B02700B1C9C9 /* Frameworks */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = FaceDetectionApp;
+			name = Recogcis;
 			productName = FaceDetectionApp;
-			productReference = 034AF8752105B02700B1C9C9 /* FaceDetectionApp.app */;
+			productReference = 034AF8752105B02700B1C9C9 /* Recogcis.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 034AF8702105B02700B1C9C9 /* Build configuration list for PBXProject "FaceDetectionApp" */;
+			buildConfigurationList = 034AF8702105B02700B1C9C9 /* Build configuration list for PBXProject "Recogcis" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				034AF8742105B02700B1C9C9 /* FaceDetectionApp */,
+				034AF8742105B02700B1C9C9 /* Recogcis */,
 			);
 		};
 /* End PBXProject section */
@@ -364,7 +364,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mehmetkoca.FaceDetectionApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehmetkoca.Recogcis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -382,7 +382,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mehmetkoca.FaceDetectionApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehmetkoca.Recogcis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -392,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		034AF8702105B02700B1C9C9 /* Build configuration list for PBXProject "FaceDetectionApp" */ = {
+		034AF8702105B02700B1C9C9 /* Build configuration list for PBXProject "Recogcis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				034AF8852105B02900B1C9C9 /* Debug */,
@@ -401,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		034AF8872105B02900B1C9C9 /* Build configuration list for PBXNativeTarget "FaceDetectionApp" */ = {
+		034AF8872105B02900B1C9C9 /* Build configuration list for PBXNativeTarget "Recogcis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				034AF8882105B02900B1C9C9 /* Debug */,

@@ -6,6 +6,7 @@ Face detection &amp; recognition AR app using the mlmodel produced by CreateML t
 # Description
 
 * Import the **mlmodel** file that you have trained with human photos for facial recognition.
+* Edit Commencers.json or import the json file that contains the employees' information.
 * and run the project 🚀
 
 # Requirements

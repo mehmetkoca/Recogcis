@@ -3,7 +3,8 @@ Face detection &amp; recognition AR app using the mlmodel produced by CreateML t
 
 # Description
 
-...
+* Import the **mlmodel** file that you have trained with human photos for facial recognition.
+* and run the project 🚀
 
 # Requirements
 * macOS Mojave

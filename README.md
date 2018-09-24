@@ -1,5 +1,5 @@
 # Recogcis
-Face detection &amp; recognition AR app using the mlmodel produced by CreateML to recognize company employees.
+Face detection & recognition AR app using the mlmodel to recognize company employees.
 
 ![](example-app.gif)
 
